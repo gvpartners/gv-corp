@@ -85,7 +85,7 @@
     <div class="appear-under-1100">
       <div class="mid center flex-col">
         <div @click="$router.push('/landing')">
-          <img src="/hold.png" class="main-logo">
+          <img src="/light.png" class="main-logo">
         </div>
       </div>
     </div>
