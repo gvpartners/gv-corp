@@ -8,15 +8,12 @@ const MyPreset = definePreset(Aura, {
                 light: {
                     primary: {
                         color: '#ffffff',
-
-                        background: '#0e5697',
-                        hoverBackground: '#166ebd',
-                        activeBackground: '#088bff',
-
-                        borderColor: '#0e5697',
-                        hoverBorderColor: '#166ebd',
-                        activeBorderColor: '#0083ff',
-
+                        background: '#8338ec',
+                        hoverBackground: '#8338ec',
+                        activeBackground: '#8338ec',
+                        borderColor: '#8338ec',
+                        hoverBorderColor: '#8338ec',
+                        activeBorderColor: '#8338ec',
                         hoverColor: '#ffffff',
                         activeColor: '#ffffff',
                         focusRing: {
@@ -28,15 +25,12 @@ const MyPreset = definePreset(Aura, {
                 dark: {
                     primary: {
                         color: '#ffffff',
-
                         background: '#8338ec',
                         hoverBackground: '#8338ec',
                         activeBackground: '#8338ec',
-
                         borderColor: '#8338ec',
                         hoverBorderColor: '#8338ec',
                         activeBorderColor: '#8338ec',
-
                         hoverColor: '#ffffff',
                         activeColor: '#ffffff',
                         focusRing: {

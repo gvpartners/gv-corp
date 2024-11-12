@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex-row contact-us center gap-4 margin-auto">
+  <div class="flex-row contact-us center gap-2 margin-auto">
     <div class="picture" v-motion-slide-visible-once-left :duration="500">
       <img :src="darkTheme?'/dark.png':'/light.png'" class="about-us-picture">
     </div>
@@ -51,7 +51,7 @@ export default {
 <style scoped>
 @media (max-width: 800px){
   .contact-us{
-     flex-direction: column; gap: 0; margin: 4rem 0;
+     flex-direction: column; gap: 0; margin: 1rem 0;
   }
 }
 .about-us-picture{

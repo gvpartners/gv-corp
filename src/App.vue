@@ -22,18 +22,11 @@
             name: 'Instagram',
             icon: 'pi pi-instagram',
             url: 'https://www.instagram.com/sebastianrgarciav/'
-          },
-          {
-            name: 'Whatsapp',
-            icon: 'pi pi-whatsapp',
-            url: 'https://wa.me/+51945740538',
           }
         ],
         darkTheme: false,
-
         landingPageId: 0,
         landingPageRoutes: getLandingPageRoutesAsArray(),
-
         scrollOptions: {
           frameRate: 150,
           animationTime: 400,
@@ -80,7 +73,7 @@
     <div class="start center">
       <div class="textButton vanish-under-1100">
         <div class="flex-row center gap-1">
-          <img :src="darkTheme?'/inverted.png':'/not_inverted.png'" class="main-logo">
+          <img :src="darkTheme?'/inverted.png':'/light.png'" class="main-logo">
           <div class="flex-col left" @click="$router.push('/landing')">
             <h1>GV-Corp</h1>
             <p>Agencia de Digitalización Empresarial</p>
@@ -128,7 +121,7 @@
       </div>
     </div>
     <div class="flex-col center gap-1">
-      <h3>© 2024 GV-Corp - Agencia de Digitalización Empresarial</h3>
+      <h3>© 2024 GV-Corp</h3>
     </div>
   </footer>
   <Card style="display: none"/>

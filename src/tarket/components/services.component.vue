@@ -183,7 +183,7 @@ export default {
 </script>
 
 <template>
-  <div class="margin-width-3-over-600 flex-col center gap-5 margin-4">
+  <div class="margin-width-3-over-600 flex-col center gap-5 margin-2">
     <div class="flex-col center">
       <h1 class="margin-width-1-over-600 margin-height-1" v-motion-slide-visible-once-left :duration="500">Servicios</h1>
       <div class="services-title-description-width center" v-motion-slide-visible-once-left :delay="60" :duration="500">
