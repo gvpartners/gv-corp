@@ -167,7 +167,6 @@ main{
 }
 .bigger{
   scale: 300%;
-  padding-bottom: 75px;
 }
 footer{
   border-top: 1px solid var(--p-divider-border-color);
