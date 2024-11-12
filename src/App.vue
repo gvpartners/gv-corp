@@ -29,7 +29,7 @@
             url: 'https://wa.me/+51945740538',
           }
         ],
-        darkTheme: true,
+        darkTheme: false,
 
         landingPageId: 0,
         landingPageRoutes: getLandingPageRoutesAsArray(),
@@ -60,7 +60,7 @@
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
           this.darkTheme = true;
         } else {
-          this.darkTheme = true;
+          this.darkTheme = false;
         }
       },
 
@@ -133,11 +133,11 @@
   </footer>
   <Card style="display: none"/>
   <Divider style="display: none"/>
-  <!-- <div class="floating-down-right vanish-under-350">
+  <div class="floating-down-right vanish-under-350">
     <Button text rounded aria-label="Filter" severity="primary" @click="openTab(whatsappLink)" class="bigger">
       <i class="pi pi-whatsapp"/>
     </Button>
-  </div> -->
+  </div>
 </template>
 <!-- arriba, derecha, abajo, izquierda -->
 <!-- animation: slidedown-icon 1s infinite; -->
